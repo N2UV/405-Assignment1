@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact — Abdulaziz</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="index.html">
+      <img src="images/profile.jpg" alt="Profile" class="profile-pic"/>
+      <strong>Abdulaziz S. Alzahrani</strong>
+    </a>
+    <nav class="nav">
+      <a href="index.html">CV</a>
+      <a href="schedule.html">Class Schedule</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="social">
+      <a aria-label="X" target="_blank" rel="noopener" href="https://x.com/"><span>X</span></a>
+      <a aria-label="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/abdulaziz-alzahrani-0bb52b28b"><span>in</span></a>
+    </div>
+  </aside>
+
+  <div class="container">
+    <header class="header">
+      <h1>Contact</h1>
+      <div class="crumbs"><a href="index.html">Home</a> • <a href="schedule.html">Schedule</a> • <a href="contact.html">Contact</a></div>
+    </header>
+
+    <main class="main">
+      <section class="card">
+        <form method="post" action="REPLACE_WITH_YOUR_UNIQUE_WEBHOOK_URL">
+          <div class="row">
+            <div>
+              <label for="name">Name <span aria-hidden="true" style="color:#ef4444">*</span></label>
+              <input id="name" name="name" type="text" placeholder="Your name" required>
+            </div>
+            <div>
+              <label for="email">Email (optional)</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com">
+            </div>
+            <div class="full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="10" placeholder="Write your message here..."></textarea>
+            </div>
+          </div>
+
+          <fieldset style="margin-top:12px">
+            <legend>Message Type</legend>
+            <label><input type="radio" name="type" value="Inquiry" checked> Inquiry</label>
+            <label style="margin-left:12px"><input type="radio" name="type" value="Complaint"> Complaint</label>
+          </fieldset>
+
+          <p style="margin-top:14px">
+            <input type="submit" value="Send Message">
+          </p>
+        </form>
+        <p style="color:var(--muted); font-size:.9rem;">
+          Tip: visit <a href="https://webhook.site/" target="_blank" rel="noopener">webhook.site</a>, copy your unique URL, and replace the <code>REPLACE_WITH_YOUR_UNIQUE_WEBHOOK_URL</code> in this page.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">© 2025 Abdulaziz S. Alzahrani — CPIT-405 Assignment 1</footer>
+  </div>
+</body>
+</html>
